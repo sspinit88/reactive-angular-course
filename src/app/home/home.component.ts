@@ -56,9 +56,4 @@ export class HomeComponent
       );
   }
 
-
 }
-
-
-
-
