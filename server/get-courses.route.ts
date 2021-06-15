@@ -3,7 +3,7 @@ import { COURSES } from './db-data';
 
 
 export function getAllCourses(req: Request, res: Response) {
-
+  // todo для тестирвоания компонента по выводу сообщений
   /*
       console.log("ERROR loading courses!");
       res.status(500).json({message: 'random error occurred.'});

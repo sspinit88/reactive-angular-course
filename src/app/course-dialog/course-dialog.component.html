@@ -1,4 +1,9 @@
 <h2 mat-dialog-title>{{course.description}}</h2>
+
+<loading></loading>
+
+<messages></messages>
+
 <mat-dialog-content [formGroup]="form">
   <mat-form-field>
 
@@ -36,7 +41,6 @@
 
     <mat-datepicker-toggle matSuffix
                            [for]="myDatepicker">
-
     </mat-datepicker-toggle>
 
     <mat-datepicker #myDatepicker></mat-datepicker>
@@ -66,5 +70,3 @@
     Save
   </button>
 </mat-dialog-actions>
-
-<loading></loading>
